@@ -1,0 +1,48 @@
+fieldset{
+    width: 30%;
+    margin-left: 450px;
+    text-align: center;
+    background-color: #0e0b20;
+}
+h1 {
+    text-align: center;
+    padding-bottom: 70px;
+    color: white;
+}
+p {
+    color: white;
+    font-size: 30px;
+}
+
+div {
+    border: 1px solid black;
+    margin-bottom: 100px;
+    padding: 40px;
+    background-color: #111328;
+    border-radius: 10px;
+}
+button {
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+    background-color: #3700b3;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+input[type="range"]{
+    appearance: none;
+    outline: none;
+    background-color: skyblue;
+    border-radius: 10px;
+    
+}
+.slider::-webkit-slider-thumb {
+    appearance: none; /* removes browser-specific styling */
+    width: 20px; /* handle width */
+    height: 20px; /* handle height */
+    border-radius: 50%; /* make it circular */
+    background: black; /* white color */
+    cursor: pointer; /* cursor on hover */
+  }
